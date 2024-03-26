@@ -2,5 +2,7 @@
     import Navbar from "@components/Navbar.svelte"
 </script>
 
-<Navbar/>
-<slot/>
+<div class="size-full min-h-screen">
+    <Navbar/>
+    <slot/>
+</div>
