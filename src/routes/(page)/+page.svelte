@@ -1,6 +1,6 @@
 <div class="navbar bg-base-100 shadow-xl rounded-b-box px-4">
     <div class="navbar-start">
-        <a class="btn btn-ghost text-xl" href="/static">Landing</a>
+        <a class="btn btn-ghost text-xl" href="/">Landing</a>
     </div>
     <div class="navbar-end lg:flex">
         <ul class="menu menu-horizontal px-1">
