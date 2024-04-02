@@ -14,7 +14,7 @@
         </button>
     </div>
     <div class="flex-1">
-        <a href="/" class="btn btn-ghost text-xl">DaisyUI</a>
+        <a href="/static" class="btn btn-ghost text-xl">DaisyUI</a>
     </div>
     <div class="navbar-end">
         <!-- Notification -->
