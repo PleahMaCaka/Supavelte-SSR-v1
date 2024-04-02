@@ -1,4 +1,15 @@
 <div class="size-full min-h-screen">
+    <div class="navbar bg-base-100 shadow-xl rounded-b-box px-4">
+        <div class="navbar-start">
+            <a class="btn btn-ghost text-xl" href="/">Landing</a>
+        </div>
+        <div class="navbar-end lg:flex">
+            <ul class="menu menu-horizontal px-1">
+                <li><a href="/about">About</a></li>
+                <li><a href="/signin">Login</a></li>
+            </ul>
+        </div>
+    </div>
     <slot/>
 </div>
 <!-- Footer -->
