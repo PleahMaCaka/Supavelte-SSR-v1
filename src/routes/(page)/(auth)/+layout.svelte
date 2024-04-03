@@ -1,12 +1,12 @@
 <div class="flex flex-col items-center justify-center min-h-screen">
     <div class="flex flex-col items-center rounded-lg shadow-md
-            p-6 w-full max-w-md space-y-4
+            p-6 w-full max-w-md space-y-3
             bg-base-300">
         <div class="size-full px-1">
             <slot/>
         </div>
         <!-- Social Logins-->
-        <div class="divider divider-success text-sm opacity-85 my-2.5">
+        <div class="divider divider-success text-sm opacity-85">
             Social Login
         </div>
         <div class="flex flex-col w-full gap-2">
