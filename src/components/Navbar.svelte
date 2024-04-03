@@ -14,7 +14,7 @@
         </button>
     </div>
     <div class="flex-1">
-        <a href="/static" class="btn btn-ghost text-xl">DaisyUI</a>
+        <a href="/" class="btn btn-ghost text-xl">The App</a>
     </div>
     <div class="navbar-end">
         <!-- Notification -->
@@ -44,7 +44,8 @@
                         </div>
                         <button class="btn btn-sm">See</button>
                     </div>
-                    <p class="self-center bg-zinc-900 px-2 py-0.5 mt-1 rounded-box"><a href="/app/notify">See all >></a></p>
+                    <p class="self-center bg-zinc-900 px-2 py-0.5 mt-1 rounded-box"><a href="/app/notify">See all >></a>
+                    </p>
                 </div>
             </div>
         </div>
