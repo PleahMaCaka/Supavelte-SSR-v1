@@ -7,9 +7,10 @@
               mt-8 text-md sm:text-lg lg:text-2xl">
         Build the web application with the latest technology stack and best practices.
     </p>
-    <button class="btn btn-primary w-max px-8 self-center rounded-3xl mt-16">
-        <a href="/app" class="text-white text-2xl font-normal">
+    <a href="/app" class="w-max  self-center">
+        <button class="btn btn-primary rounded-3xl px-8 mt-16
+                       text-white text-2xl font-normal">
             Getting Started
-        </a>
-    </button>
+        </button>
+    </a>
 </div>
