@@ -15,7 +15,7 @@
 	"packageManager": "pnpm@8.15.5",
 	"devDependencies": {
 		"@supabase/supabase-js": "^2.42.0",
-		"@sveltejs/adapter-auto": "^3.0.0",
+		"@sveltejs/adapter-node": "^5.0.1",
 		"@sveltejs/kit": "^2.0.0",
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
 		"autoprefixer": "^10.4.19",
