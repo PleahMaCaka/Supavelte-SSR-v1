@@ -1,7 +1,8 @@
 <div class="flex flex-col items-center justify-center min-h-screen">
     <div class="flex flex-col items-center rounded-lg shadow-md
             p-6 w-full max-w-md space-y-3
-            bg-base-300">
+            dark:bg-base-300 bg-zinc-100"
+    >
         <div class="size-full px-1">
             <slot/>
         </div>
@@ -13,7 +14,8 @@
             <button type="submit" name="provider" value="google"
                     class="flex w-full justify-center rounded-md border p-1.5
                        disabled:cursor-not-allowed disabled:opacity-50
-                       dark:bg-zinc-100 hover:brightness-[80%] duration-150">
+                       bg-white border-gray-300
+                       dark:bg-zinc-100 hover:brightness-[98%] dark:hover:brightness-[98%] duration-150">
                 <svg xmlns="http://www.w3.org/2000/svg"
                      class="h-6 w-auto"
                      preserveAspectRatio="xMidYMid"
