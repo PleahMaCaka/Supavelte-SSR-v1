@@ -2,13 +2,5 @@
 
 This is a boilerplate for SvelteKit and Supabase!
 
-Objective: Enterprise-grade SvelteKit and Supabase boilerplate with authentication, authorization, and more.
-
-### Features
-
-- [ ] User Authentication
-- [ ] Routing Protection
-- [ ] TailwindCSS / DaisyUI
-- [ ] ESLint Stylistic
-- [ ] Vitest
-- [ ] Storybook
+Fullstack SvelteKit and Supabase boilerplate with user authentication, routing protection, TailwindCSS, DaisyUI, ESLint
+Stylistic (yet), Vitest (yet), and Storybook(yet), Cypress(yet).
