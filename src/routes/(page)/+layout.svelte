@@ -1,5 +1,5 @@
 <div class="size-full min-h-screen">
-    <div class="navbar bg-base-100 shadow-xl rounded-b-box px-4">
+    <div class="navbar px-4 border-b border-b-gray-600">
         <div class="navbar-start">
             <a class="btn btn-ghost text-xl" href="/">Landing</a>
         </div>
