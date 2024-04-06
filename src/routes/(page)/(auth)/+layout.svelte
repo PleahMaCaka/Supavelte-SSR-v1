@@ -8,7 +8,7 @@
         </div>
         <!-- Social Logins-->
         <div class="divider divider-success text-sm opacity-85">
-            Social Login
+            OR
         </div>
         <div class="flex flex-col w-full gap-2">
             <button type="submit" name="provider" value="google"

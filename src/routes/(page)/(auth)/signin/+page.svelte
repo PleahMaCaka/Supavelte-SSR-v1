@@ -3,7 +3,7 @@
 </script>
 
 <form class="flex flex-col gap-2"
-      method="POST" action="/api/auth/login"
+      method="POST" action="/api/auth/signin"
 >
     <AuthInput type="email" label="Email">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 opacity-70">
@@ -31,11 +31,11 @@
     </div>
     <div>
         <button class="btn btn-success w-full mt-1 dark:text-white brightness-90">
-            Login
+            Sign In
         </button>
         <div class="ml-0.5 mt-0.5">
             <span class="text-sm text-gray-500">Don't have an account?</span>
-            <a href="/register" class="text-sm text-blue-500">Sign Up</a>
+            <a href="/signup" class="text-sm text-blue-500">Sign Up</a>
         </div>
     </div>
 </form>

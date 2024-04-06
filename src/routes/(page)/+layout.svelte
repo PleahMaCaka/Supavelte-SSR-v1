@@ -6,7 +6,7 @@
         <div class="navbar-end lg:flex">
             <ul class="menu menu-horizontal px-1">
                 <li><a href="/about">About</a></li>
-                <li><a href="/login">Login</a></li>
+                <li><a href="/signin">Sign In</a></li>
             </ul>
         </div>
     </div>
