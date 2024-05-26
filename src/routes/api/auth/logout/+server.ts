@@ -4,10 +4,10 @@ import type { RequestHandler } from "./$types"
 
 
 export const GET: RequestHandler = async ({ cookies }) => {
-    cookies.delete("access-token", { path: "/" })
-    cookies.delete("refresh-token", { path: "/" })
+	cookies.delete("access-token", { path: "/" })
+	cookies.delete("refresh-token", { path: "/" })
 
-    await supabase.auth.signOut()
+	await supabase.auth.signOut()
 
-    return redirect(302, "/")
+	return redirect(302, "/")
 }

@@ -9,10 +9,11 @@ declare global {
 		interface Locals {
 			user: User | null
 		}
+
 		// interface PageData {}
 		// interface PageState {}
 		// interface Platform {}
 	}
 }
 
-export {};
+export {}

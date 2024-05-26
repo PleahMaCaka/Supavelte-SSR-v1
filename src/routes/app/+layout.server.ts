@@ -1,4 +1,4 @@
-export const load = ({locals}) => {
-    if (!locals.user)
-        return
+export const load = ({ locals }) => {
+	if (!locals.user)
+		return
 }

@@ -1,7 +1,7 @@
-import adapter from '@sveltejs/adapter-node';
-import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
+import adapter from "@sveltejs/adapter-node"
+import { vitePreprocess } from "@sveltejs/vite-plugin-svelte"
 
-/** @type {import('@sveltejs/kit').Config} */
+/** @type {import("@sveltejs/kit").Config} */
 const config = {
 	preprocess: vitePreprocess(),
 	kit: {
@@ -10,9 +10,9 @@ const config = {
 			"@lib/*": "./src/lib/*",
 			"@components/*": "./src/components/*",
 			"@stores/*": "./src/lib/stores/*",
-			"@routes/*": "./src/routes/*",
+			"@routes/*": "./src/routes/*"
 		}
 	}
-};
+}
 
-export default config;
+export default config
