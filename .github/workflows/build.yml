@@ -49,5 +49,5 @@ jobs:
       - name: Build
         run: pnpm build
         env:
-          VITE_SUPABASE_URL: "https://example.com/"
-          VITE_SUPABASE_KEY: "DUMMY"
+          VITE_PUBLIC_SUPABASE_URL: "https://uwu.uwu/"
+          VITE_PUBLIC_SUPABASE_ANON_KEY: "uwu"
