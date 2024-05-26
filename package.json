@@ -10,12 +10,12 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"test": "vitest",
-		"typegen": "pnpx supabase gen types typescript --project-id scxpsjipuoxztbxumbaq > ./src/lib/types/supabase.ts"
+		"typegen": "pnpx supabase gen types typescript --project-id <supabase_ref_id> > ./src/lib/types/supabase.ts"
 	},
-	"packageManager": "pnpm@8.15.5",
+	"packageManager": "pnpm@9.0.4",
 	"devDependencies": {
 		"@supabase/supabase-js": "^2.42.0",
-		"@sveltejs/adapter-static": "^3.0.1",
+		"@sveltejs/adapter-node": "^5.0.1",
 		"@sveltejs/kit": "^2.0.0",
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
 		"autoprefixer": "^10.4.19",
